@@ -1,0 +1,71 @@
+
+.AboutBackground {
+    background-size: contain;
+    width: 100%;
+    height: 600px;
+    margin-top: -70px;
+    background: url("../Images/Back.jpg") no-repeat bottom;
+}
+.aboutContent {
+    position: absolute;
+    color: #F5F5F5;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: 500;
+    font-family:  'Montserrat',sans-serif;
+}
+.globalTitle{
+    color: #1D1D1D;
+    font-size: 30px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+}
+.globalDescription{
+    font-size: 19px;
+    color: #1D1D1D;
+    font-family: 'Lato',sans-serif;
+    line-height: 1.7rem;
+    font-weight: 400;
+}
+.imgBack{
+    width: 100%;
+    height: auto;
+    background-color: #EDEDED;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.imgBack img{
+    width: 100%;
+    height: auto;
+    margin-left: -10px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+.globalSubTitle{
+    color: #1D1D1D;
+    font-size: 20px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+}
+.coreLine{
+    position: relative;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1D1D1D;
+    font-family: 'Lato', serif;
+}
+.coreLine::after{
+    box-sizing: border-box;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background-color: red;
+    left: -30px;
+    top: 9px;
+}

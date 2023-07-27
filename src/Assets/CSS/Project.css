@@ -1,0 +1,81 @@
+
+.project{
+    width: 100%;
+    height: 600px;
+    background: url("../Images/user1.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: -70px;
+}
+
+.project .globalTitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #EDEDED;
+    font-size: 45px;
+}
+.water{
+    width: 100%;
+    height: auto;
+    padding: 35px 3rem 1.3rem 2.9rem;
+}
+
+.water .globalSubTitle{
+    position: relative;
+}
+.water .globalSubTitle::after{
+    box-sizing: border-box;
+    content: "";
+    display: block;
+    width: 15%;
+    height: 2px;
+    position: absolute;
+    background-color: red;
+    left: 130px;
+    top: 12px;
+}
+.carousel img{
+    width: 100%;
+    height: auto;
+    padding: 0 8px 0 8px;
+}
+.carousel{
+    padding: 0 2.5rem 0 2.5rem !important;
+}
+.winter .globalSubTitle{
+    position: relative;
+}
+.winter{
+    width: 100%;
+    background-color: #F5F5F5;
+    margin-top: 60px;
+    padding: 3rem 2.5rem 20px 2.9rem !important;
+}
+.winter .globalSubTitle::after{
+    box-sizing: border-box;
+    content: "";
+    display: block;
+    width: 15%;
+    height: 2px;
+    position: absolute;
+    background-color: red;
+    left: 200px;
+    top: 12px;
+}
+.winterImg{
+    width: 100%;
+    height: auto;
+    background-color: #F5F5F5;
+    padding: 0 2.5rem 5rem 2.5rem !important;
+}
+.winterImg img{
+    width: 100%;
+    height: auto;
+    padding: 8px;
+}
+.forest{
+    width: 100%;
+    height: auto;
+    padding: 20px 2.5rem 20px 2.9rem !important;
+}

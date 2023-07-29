@@ -4,7 +4,7 @@ import {Button, Col, Container, Row} from "react-bootstrap";
 function Tours(props) {
     return (
         <Fragment>
-            <Container fluid="true" className="mt-5">
+            <Container fluid="true" className="mt-5 mb-2">
                 <Row>
                     <Col sm={12} md={4} lg={4}>
                         <div className="tourContent">

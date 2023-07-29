@@ -30,6 +30,9 @@
 .controlForm:focus{
     box-shadow: none!important;
 }
+.textArea:focus{
+    box-shadow: none!important;
+}
 .formContainer h3{
     margin-top: 12px;
 }

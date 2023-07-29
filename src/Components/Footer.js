@@ -4,7 +4,7 @@ import {Col, Container, Row} from "react-bootstrap";
 function Footer(props) {
     return (
         <Fragment>
-            <Container fluid="ture" className="mt-5 footer">
+            <Container fluid="ture" className="footer">
                 <Row>
                     <Col>
                         <div>

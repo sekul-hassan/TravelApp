@@ -1,0 +1,147 @@
+
+.resMenu{
+    z-index: 4;
+    background-color: #F5F5F5 !important;
+}
+.resMenu .navLink{
+    padding-left: 100px !important;
+    color: #1D1D1D !important;
+}
+.resMenu .navLink:hover{
+    color: magenta !important;
+}
+@media (min-width: 600px) {
+    .nav{
+        margin-right: 25% !important;
+    }
+}
+@media (max-width: 992px) {
+    .background,.AboutBackground,.serviceBackground,.project,.contact{
+        height: 420px !important;
+        position: relative !important;
+    }
+    .overlay{
+        height: 420px !important;
+    }
+    .experience{
+        margin-top: -60px !important;
+    }
+    .subTitle,.coreLine{
+        font-size: 18px !important;
+    }
+    .globalTitle{
+        font-size: 26px !important;
+        font-weight: 600 !important;
+    }
+    .globalSubTitle{
+        font-size: 18px !important;
+        font-weight: 500 !important;
+    }
+    .globalDescription{
+        font-size: 16px !important;
+        font-weight: 400 !important;
+    }
+    .aboutContent{
+        font-size: 28px !important;
+        top: 60% !important;
+        left: 50% !important;
+        transform: translate(-50%,-50%)!important;
+    }
+    .everestDesRes{
+        margin-bottom: 50px !important;
+    }
+    .everest{
+        margin-top: 10px !important;
+    }
+    .formContainer .awesomeBtn{
+        margin-bottom: 10px !important;
+    }
+    .resBtn{
+        margin-bottom: 30px !important;
+    }
+    .tourImgD1{
+        margin-top: -35%!important;
+    }
+}
+@media (max-width: 600px) {
+    .background,.AboutBackground,.serviceBackground,.project,.contact{
+        height: 350px !important;
+        position: relative !important;
+    }
+    .overlay{
+        height: 350px !important;
+    }
+    .subTitle,.coreLine{
+        font-size: 16px !important;
+    }
+    .aboutContent{
+        font-size: 22px !important;
+    }
+    .globalTitle{
+        font-size: 20px !important;
+        font-weight: 600 !important;
+    }
+    .globalSubTitle{
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+    .globalDescription{
+        font-size: 14px !important;
+    }
+    .experience{
+        margin-top: -80px !important;
+    }
+    .carousel{
+        margin-bottom: 60px!important;
+        margin-top: -20px;
+    }
+    .title{
+        font-size: 19px;
+    }
+    .homeTopButton{
+        font-size: 13px !important;
+    }
+    .tourImgD1{
+        margin-top: 1% !important;
+        padding: 0 20px 1px 20px!important;
+    }
+    .tourImgD2{
+        margin-top: 1%!important;
+        margin-bottom: 7%!important;
+        padding: 0 20px 1px 20px!important;
+    }
+    .tourImg{
+        margin-top: 1%;
+        padding: 0 20px 1px 20px!important;
+    }
+    .exploreContent{
+        padding: 0 20px 1px 30px!important;
+    }
+    .experience{
+        margin-top: 30px !important;
+    }
+    .footer{
+        margin-top: -30px !important;
+    }
+    .winterImg{
+        padding: 0 2.5rem 0 2.5rem !important;
+    }
+    .iconDiv{
+        margin-bottom: 32px !important;
+    }
+
+}
+@media (max-width: 750px) {
+    .tourImgD1{
+        margin-top: 1% !important;
+        padding: 0 20px 1px 20px!important;
+    }
+    .tourImgD2{
+        margin-top: 1%!important;
+        padding: 0 20px 1px 20px!important;
+    }
+    .tourImg{
+        margin-top: 1%;
+        padding: 0 20px 1px 20px!important;
+    }
+}

@@ -56,7 +56,7 @@ function ForestImg() {
     };
     return (
         <Fragment>
-            <Container fluid="true" className="mt-0 pt-0 carousel">
+            <Container fluid="true" className="carousel">
                 <Row>
                     <Slider {...settings}>
                         <div>

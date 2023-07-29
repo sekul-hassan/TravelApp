@@ -8,7 +8,7 @@ function ContactTop() {
                 <Row>
                     <Col>
                         <div className="overlay">
-                            <div className="contactContent">
+                            <div className="aboutContent">
                                 <h4>CONTACT US</h4>
                             </div>
                         </div>

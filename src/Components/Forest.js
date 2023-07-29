@@ -4,7 +4,7 @@ import {Col, Container, Row} from "react-bootstrap";
 function Forest(props) {
     return (
         <Fragment>
-            <Container fluid="true" className="mt-3 forest water">
+            <Container fluid="true" className="forest water">
                 <Row>
                     <Col>
                         <h5 className="globalSubTitle mt-2">Forest Tour</h5>

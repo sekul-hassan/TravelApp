@@ -16,7 +16,7 @@ function UpComingImg(props) {
                             <h4 className="text-primary">Everest Camp Trek</h4>
                             <p>Fuerat aestu carentem habentia spectent tonitrua mutastis locavit liberioris inistra possedit.</p>
                         </div>
-                        <Button className="awesomeBtn">LEARN MORE  <FontAwesomeIcon icon={faArrowRight}/></Button>
+                        <Button className="awesomeBtn resBtn">LEARN MORE  <FontAwesomeIcon icon={faArrowRight}/></Button>
                     </Col>
                     <Col lg={6} md={6} sm={12}>
                         <div className="everest">

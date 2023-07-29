@@ -8,7 +8,7 @@ function ProjectTop(props) {
                 <Row>
                     <Col>
                         <div className="overlay">
-                            <h4 className="globalTitle">OUR PROJECTS</h4>
+                            <h4 className="aboutContent">OUR PROJECTS</h4>
                         </div>
                     </Col>
                 </Row>

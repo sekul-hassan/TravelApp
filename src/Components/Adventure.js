@@ -4,7 +4,7 @@ import {Col, Container, Row} from "react-bootstrap";
 function Adventure(props) {
     return (
         <Fragment>
-            <Container fluid="true" className="mt-5 p-5 text-center adventure">
+            <Container fluid="true" className="p-5 mb-5 text-center adventure">
                 <Row>
                     <Col>
                         <h4 className="globalTitle">IT'S TIME TO START YOUR ADVENTURES</h4>
@@ -46,7 +46,7 @@ function Adventure(props) {
                         <div className="everest">
                             <img className="everestImg" src="https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/services-3.jpg" alt=""/>
                         </div>
-                        <div className="everestDes">
+                        <div className="everestDes everestDesRes">
                             <h4>Water Sports</h4>
                             <p>Fuerat aestu carentem habentia spectent tonitrua mutastis locavit liberioris inistra possedit.</p>
                         </div>

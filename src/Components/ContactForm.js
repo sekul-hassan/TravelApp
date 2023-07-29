@@ -18,7 +18,7 @@ function ContactForm() {
                                 <Form.Control className="controlForm" type="email" placeholder="Email Address"/><br/>
                             </Form.Group>
                             <Form.Group>
-                                <Form.Control style={{outline:'none'}} as="textarea" type="text" placeholder="Message" rows={3.5}/><br/>
+                                <Form.Control className="textArea" as="textarea" type="text" placeholder="Message" rows={3.5}/><br/>
                             </Form.Group>
                             <Button className="awesomeBtn">SEND MESSAGE</Button>
                         </Form>

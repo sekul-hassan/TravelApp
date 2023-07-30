@@ -68,6 +68,11 @@
         height: 350px !important;
         position: relative !important;
     }
+    .content{
+        top: 65% !important;
+        left: 45% !important;
+        transform: translate(-50%,-50%) !important;
+    }
     .overlay{
         height: 350px !important;
     }

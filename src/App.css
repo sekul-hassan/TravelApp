@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+
+.sadman{
+  height: 50%;
+  background-color: azure;
+  text-align: center;
+}
